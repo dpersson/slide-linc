@@ -17,8 +17,6 @@
 #
 #The author can be reached at psymaster@caths.co.uk
 
-# F3 = bil/bic/ant
-# F4 = res/nores
 
 ##### IMPORTS #######
 import Image
@@ -97,8 +95,8 @@ def main():
     ##
     resize = 1
     #################
-    WIDTH = 1024
-    HEIGHT = 768
+    WIDTH = 1920
+    HEIGHT = 1024
     event = LOAD
     to_blit = -1
 
