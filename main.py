@@ -14,11 +14,7 @@
 #You should have received a copy of the GNU General Public License
 #along with this program; if not, write to the Free Software
 #Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
-#
-#The author can be reached at psymaster@caths.co.uk
 
-
-##### IMPORTS #######
 import Image
 import pygame
 import sys
@@ -27,7 +23,6 @@ from pygame.locals import*
 from os import walk, getcwd
 import random
 import re
-#######################
 
 def blit_center(surf, surf_to_blit):
     """
@@ -231,5 +226,4 @@ def main():
                     time.sleep(0.03)
                 
                 event = LOAD
-
 main()
